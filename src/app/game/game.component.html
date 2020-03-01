@@ -6,7 +6,6 @@
       <div class="col-md-12 col-sm-12 col-xs-12">
          <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3 no-padding" *ngFor="let col of boxes">
             	<div class="col-md-12 col-sm-12 box" *ngFor="let row of col"  [ngStyle]="{'background-color': row.color}" (click)="userTurn(row)" [ngClass]="row.isSelected?'focused':''">
-               	 {{row.id}}
              </div>
          </div>
       </div>
