@@ -1,0 +1,21 @@
+.game-container{
+	width:300px;
+	margin:auto;
+	margin-top:15%;
+	.box{
+	    padding: 5px;
+        border: 1px solid black;
+        text-align: center;
+        height:50px;
+        cursor:pointer;
+	}
+	.no-padding{
+	 padding:0px;
+	}
+	.focused{
+      border: 3px solid yellow;
+	}
+	.btn-start {
+	 padding-top:10px;
+	}
+}
